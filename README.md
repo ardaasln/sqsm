@@ -2,6 +2,9 @@
 
 Python3 script that moves SQS messages to another queue
 
+It determines by looking .fifo suffix whether a queue is FIFO or standard.
+Fifo or Standard -> Fifo or Standard
+
 ## Installation
 
     git clone https://github.com/safaozturk93/sqsm.git
